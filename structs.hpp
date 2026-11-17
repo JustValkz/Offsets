@@ -18,7 +18,7 @@ namespace StructOffsets
     {
         constexpr uintptr_t Animation = 0xA0;
         constexpr uintptr_t Animator = 0xF8;
-        constexpr uintptr_t IsPlaying = 0xA10;
+        constexpr uintptr_t IsPlaying = 0xA40;
         constexpr uintptr_t Looped = 0xCD;
         constexpr uintptr_t Speed = 0xBC;
         constexpr uintptr_t TimePosition = 0xC0;
@@ -97,8 +97,6 @@ namespace StructOffsets
 
     namespace ByteCode
     {
-        constexpr uintptr_t LocalScriptByteCode = 0x178;
-        constexpr uintptr_t ModuleScriptByteCode = 0x120;
         constexpr uintptr_t Pointer = 0x18;
         constexpr uintptr_t Size = 0x28;
     }
@@ -186,10 +184,10 @@ namespace StructOffsets
 
     namespace ColorCorrectionEffect
     {
-        constexpr uintptr_t Brightness = 0xAC;
-        constexpr uintptr_t Contrast = 0xB0;
+        constexpr uintptr_t Brightness = 0xDC;
+        constexpr uintptr_t Contrast = 0xE4;
         constexpr uintptr_t Enabled = 0x98;
-        constexpr uintptr_t TintColor = 0xA0;
+        constexpr uintptr_t TintColor = 0xD0;
     }
 
     namespace ColorGradingEffect
@@ -200,7 +198,6 @@ namespace StructOffsets
 
     namespace DataModel
     {
-        constexpr uintptr_t Children = 0x70;
         constexpr uintptr_t CreatorId = 0x190;
         constexpr uintptr_t GameId = 0x198;
         constexpr uintptr_t GameLoaded = 0x5B8;
@@ -262,7 +259,6 @@ namespace StructOffsets
     {
         constexpr uintptr_t IsCoreScript = 0x168;
         constexpr uintptr_t RequireBypass = 0xA00;
-        constexpr uintptr_t ScriptContextToLuaState = 0x220;
         constexpr uintptr_t ScriptContextToResume = 0x8E0;
         constexpr uintptr_t ScriptContextToState = 0x300;
         constexpr uintptr_t WaitingHybridScriptsJobScriptContext = 0x1C0;
@@ -346,7 +342,7 @@ namespace StructOffsets
         constexpr uintptr_t SizeConstraint = 0x338;
         constexpr uintptr_t Text = 0xA30;
         constexpr uintptr_t TextColor3 = 0xAE0;
-        constexpr uintptr_t Visible = 0x72D;
+        constexpr uintptr_t Visible = 0x730;
         constexpr uintptr_t ZIndex = 0x33C;
     }
 
@@ -370,10 +366,10 @@ namespace StructOffsets
         constexpr uintptr_t HealthDisplayDistance = 0x17C;
         constexpr uintptr_t HealthDisplayType = 0x180;
         constexpr uintptr_t HipHeight = 0x188;
-        constexpr uintptr_t HumanoidRootPart = 0x468;
-        constexpr uintptr_t HumanoidState = 0x8B0;
+        constexpr uintptr_t HumanoidRootPart = 0x460;
+        constexpr uintptr_t HumanoidState = 0x8A8;
         constexpr uintptr_t HumanoidStateID = 0x20;
-        constexpr uintptr_t IsWalking = 0xA46;
+        constexpr uintptr_t IsWalking = 0xA3E;
         constexpr uintptr_t Jump = 0x1D4;
         constexpr uintptr_t JumpHeight = 0x198;
         constexpr uintptr_t JumpPower = 0x19C;
@@ -384,20 +380,20 @@ namespace StructOffsets
         constexpr uintptr_t MoveToPoint = 0x158;
         constexpr uintptr_t NameDisplayDistance = 0x1A8;
         constexpr uintptr_t NameOcclusion = 0x1AC;
-        constexpr uintptr_t PlatformStand = 0x1D6;
+        constexpr uintptr_t PlatformStand = 0x1D5;
         constexpr uintptr_t PlatformStatePointer = 0x4746A4F8;
-        constexpr uintptr_t RequiresNeck = 0x1D7;
+        constexpr uintptr_t RequiresNeck = 0x1D6;
         constexpr uintptr_t RigType = 0x1B8;
         constexpr uintptr_t SeatPart = 0xF0;
-        constexpr uintptr_t Sit = 0x1D7;
+        constexpr uintptr_t Sit = 0x1D6;
         constexpr uintptr_t TargetPoint = 0x140;
-        constexpr uintptr_t UseJumpPower = 0x1DA;
+        constexpr uintptr_t UseJumpPower = 0x1D9;
         constexpr uintptr_t WalkSpeed = 0x1C8;
-        constexpr uintptr_t WalkSpeedCheck = 0x3A4;
-        constexpr uintptr_t WalkTimer = 0x3F0;
+        constexpr uintptr_t WalkSpeedCheck = 0x39C;
+        constexpr uintptr_t WalkTimer = 0x0;
         constexpr uintptr_t WalkToPoint = 0x158;
         constexpr uintptr_t Walkspeed = 0x1C8;
-        constexpr uintptr_t WalkspeedCheck = 0x3A4;
+        constexpr uintptr_t WalkspeedCheck = 0x39C;
     }
 
     namespace InputObject
@@ -410,7 +406,7 @@ namespace StructOffsets
         constexpr uintptr_t Children = 0x78;
         constexpr uintptr_t ChildrenEnd = 0x8;
         constexpr uintptr_t ChildrenStart = 0x70;
-        constexpr uintptr_t ClassBase = 0x1B0;
+        constexpr uintptr_t ClassBase = 0x1B8;
         constexpr uintptr_t ClassDescriptor = 0x18;
         constexpr uintptr_t ClassName = 0x8;
         constexpr uintptr_t ComponentMap = 0x38;
@@ -441,7 +437,7 @@ namespace StructOffsets
     namespace Lighting
     {
         constexpr uintptr_t Ambient = 0xB8;
-        constexpr uintptr_t Atmosphere = 0x1C0;
+        constexpr uintptr_t Atmosphere = 0x1C8;
         constexpr uintptr_t Brightness = 0x100;
         constexpr uintptr_t ClockTime = 0xB0;
         constexpr uintptr_t ColorShift_Bottom = 0xC4;
@@ -453,34 +449,34 @@ namespace StructOffsets
         constexpr uintptr_t FogEnd = 0x114;
         constexpr uintptr_t FogStart = 0x118;
         constexpr uintptr_t GeographicLatitude = 0x11C;
-        constexpr uintptr_t GlobalShadows = 0x12C;
-        constexpr uintptr_t GradientBottom = 0x178;
-        constexpr uintptr_t GradientTop = 0x138;
-        constexpr uintptr_t LightColor = 0x144;
-        constexpr uintptr_t LightDirection = 0x150;
-        constexpr uintptr_t MoonPosition = 0x16C;
+        constexpr uintptr_t GlobalShadows = 0x132;
+        constexpr uintptr_t GradientBottom = 0x180;
+        constexpr uintptr_t GradientTop = 0x140;
+        constexpr uintptr_t LightColor = 0x14C;
+        constexpr uintptr_t LightDirection = 0x158;
+        constexpr uintptr_t MoonPosition = 0x174;
         constexpr uintptr_t OutdoorAmbient = 0xE8;
-        constexpr uintptr_t ShadowSoftness = 0x124;
-        constexpr uintptr_t Sky = 0x1B0;
-        constexpr uintptr_t Source = 0x15C;
-        constexpr uintptr_t SunPosition = 0x160;
+        constexpr uintptr_t ShadowSoftness = 0x128;
+        constexpr uintptr_t Sky = 0x1B8;
+        constexpr uintptr_t Source = 0x164;
+        constexpr uintptr_t SunPosition = 0x168;
     }
 
     namespace LightingParameters
     {
         constexpr uintptr_t GeographicLatitude = 0x11C;
-        constexpr uintptr_t LightColor = 0x144;
-        constexpr uintptr_t LightDirection = 0x150;
-        constexpr uintptr_t SkyAmbient = 0x138;
+        constexpr uintptr_t LightColor = 0x14C;
+        constexpr uintptr_t LightDirection = 0x158;
+        constexpr uintptr_t SkyAmbient = 0x140;
         constexpr uintptr_t SkyAmbient2 = 0x120;
-        constexpr uintptr_t Source = 0x15C;
-        constexpr uintptr_t TrueMoonPosition = 0x16C;
-        constexpr uintptr_t TrueSunPosition = 0x160;
+        constexpr uintptr_t Source = 0x164;
+        constexpr uintptr_t TrueMoonPosition = 0x174;
+        constexpr uintptr_t TrueSunPosition = 0x168;
     }
 
     namespace LocalScript
     {
-        constexpr uintptr_t ByteCode = 0x178;
+        constexpr uintptr_t ByteCode = 0x0;
         constexpr uintptr_t Bytecode = 0x190;
         constexpr uintptr_t GUID = 0xB8;
         constexpr uintptr_t Hash = 0x188;
@@ -555,7 +551,7 @@ namespace StructOffsets
 
     namespace ModuleScript
     {
-        constexpr uintptr_t ByteCode = 0x120;
+        constexpr uintptr_t ByteCode = 0x0;
         constexpr uintptr_t Bytecode = 0x138;
         constexpr uintptr_t GUID = 0xB8;
         constexpr uintptr_t Hash = 0x348;
@@ -601,7 +597,7 @@ namespace StructOffsets
         constexpr uintptr_t MaxZoomDistance = 0x370;
         constexpr uintptr_t MinZoomDistance = 0x374;
         constexpr uintptr_t ModelInstance = 0x2A0;
-        constexpr uintptr_t Mouse = 0x11F0;
+        constexpr uintptr_t Mouse = 0x1278;
         constexpr uintptr_t NameDisplayDistance = 0x3B0;
         constexpr uintptr_t Team = 0x2E0;
         constexpr uintptr_t TeamColor = 0x3B8;
@@ -630,9 +626,9 @@ namespace StructOffsets
         constexpr uintptr_t AssemblyLinearVelocity = 0xE0;
         constexpr uintptr_t CFrame = 0x34;
         constexpr uintptr_t Flags = 0x1BE;
-        constexpr uintptr_t Material = 0x24E;
+        constexpr uintptr_t Material = 0x256;
         constexpr uintptr_t Orientation = 0x34;
-        constexpr uintptr_t Owner = 0x218;
+        constexpr uintptr_t Owner = 0x220;
         constexpr uintptr_t Position = 0xD4;
         constexpr uintptr_t PrimitiveFlags = 0x1BE;
         constexpr uintptr_t Rotation = 0xB0;
@@ -661,15 +657,8 @@ namespace StructOffsets
 
     namespace Properties
     {
-        constexpr uintptr_t CallbackFunctionOffset = 0x10;
-        constexpr uintptr_t CallbackOffsetInDescriptor = 0x88;
-        constexpr uintptr_t CallbackOwnerOffset = 0x0;
-        constexpr uintptr_t CallbackThreadOffset = 0x28;
         constexpr uintptr_t ClassDescriptor = 0x18;
         constexpr uintptr_t ClassName = 0x8;
-        constexpr uintptr_t FunctionRefIdOffset = 0x34;
-        constexpr uintptr_t LiveThreadRefOffset = 0x10;
-        constexpr uintptr_t LuaStateGlobalOffset = 0x60;
         constexpr uintptr_t Properties = 0x70;
         constexpr uintptr_t PropertyDescriptorBitFlags = 0x8C;
         constexpr uintptr_t TType = 0x68;
@@ -679,11 +668,8 @@ namespace StructOffsets
     namespace PropertyDescriptor
     {
         constexpr uintptr_t CallbackStorage = 0x80;
-        constexpr uintptr_t GetSet = 0xB0;
-        constexpr uintptr_t ReadCapabilities = 0x38;
         constexpr uintptr_t ScriptableMask = 0x10;
         constexpr uintptr_t TypeDescriptor = 0x68;
-        constexpr uintptr_t TypeInfo = 0x70;
     }
 
     namespace Proto
@@ -709,9 +695,8 @@ namespace StructOffsets
 
     namespace Render
     {
-        constexpr uintptr_t RenderJobToView = 0x1E0;
-        constexpr uintptr_t RenderViewToDevice = 0x10;
-        constexpr uintptr_t RobloxDeviceToSwapChain = 0x88;
+        constexpr uintptr_t RenderJobToView = 0x1D0;
+        constexpr uintptr_t RenderViewToDevice = 0x8;
     }
 
     namespace RenderJob
@@ -744,13 +729,13 @@ namespace StructOffsets
 
     namespace RunService
     {
-        constexpr uintptr_t HeartbeatFPS = 0xC8;
-        constexpr uintptr_t HeartbeatTask = 0x27C8;
+        constexpr uintptr_t HeartbeatFPS = 0xBE;
+        constexpr uintptr_t HeartbeatTask = 0x28E38;
     }
 
     namespace Script
     {
-        constexpr uintptr_t ByteCode = 0x178;
+        constexpr uintptr_t ByteCode = 0x0;
         constexpr uintptr_t GUID = 0xB8;
         constexpr uintptr_t Hash = 0x188;
     }
@@ -762,11 +747,6 @@ namespace StructOffsets
         constexpr uintptr_t Resume = 0x8E0;
     }
 
-    namespace Scripts
-    {
-        constexpr uintptr_t weak_thread_live_thread = 0x28;
-    }
-
     namespace Seat
     {
         constexpr uintptr_t Occupant = 0x200;
@@ -776,19 +756,11 @@ namespace StructOffsets
     {
         constexpr uintptr_t Enabled = 0x20;
         constexpr uintptr_t FunctionScriptSlotSelf = 0x18;
-        constexpr uintptr_t IsOnce = 0xB5;
         constexpr uintptr_t Next = 0x10;
         constexpr uintptr_t SelfWeakFallback = 0x48;
-        constexpr uintptr_t Signature = 0x60;
         constexpr uintptr_t SlotWrapper = 0x30;
         constexpr uintptr_t SlotWrapperFallbackSelf = 0x40;
-        constexpr uintptr_t SlotWrapperFunctionId = 0x30;
-        constexpr uintptr_t SlotWrapperFunctionIdFallback = 0x34;
         constexpr uintptr_t SlotWrapperSelf = 0x38;
-        constexpr uintptr_t SlotWrapperThread = 0x28;
-        constexpr uintptr_t SlotWrapperWeakObjectRef = 0xA0;
-        constexpr uintptr_t SlotWrapperWeakObjectRefFallback = 0x90;
-        constexpr uintptr_t SlotWrapperWeakObjectRefLegacy = 0x68;
         constexpr uintptr_t WeakChain = 0x68;
         constexpr uintptr_t WeakChainNext = 0x8;
     }
@@ -797,10 +769,8 @@ namespace StructOffsets
     {
         constexpr uintptr_t FunctionReference = 0x34;
         constexpr uintptr_t Pointer = 0x60;
-        constexpr uintptr_t Self = 0x18;
         constexpr uintptr_t Thread = 0x28;
         constexpr uintptr_t WaitContainer = 0x50;
-        constexpr uintptr_t WeakChain = 0x68;
     }
 
     namespace Sky
@@ -821,19 +791,19 @@ namespace StructOffsets
 
     namespace Sound
     {
-        constexpr uintptr_t IsPlaying = 0x130;
-        constexpr uintptr_t Looped = 0x12D;
-        constexpr uintptr_t PlaybackSpeed = 0x10C;
-        constexpr uintptr_t RollOffMaxDistance = 0x110;
-        constexpr uintptr_t RollOffMinDistance = 0x114;
+        constexpr uintptr_t IsPlaying = 0x118;
+        constexpr uintptr_t Looped = 0x115;
+        constexpr uintptr_t PlaybackSpeed = 0xFC;
+        constexpr uintptr_t RollOffMaxDistance = 0x100;
+        constexpr uintptr_t RollOffMinDistance = 0x104;
         constexpr uintptr_t SoundGroup = 0xD0;
         constexpr uintptr_t SoundId = 0xB0;
-        constexpr uintptr_t Volume = 0x120;
+        constexpr uintptr_t Volume = 0x110;
     }
 
     namespace SpawnLocation
     {
-        constexpr uintptr_t AllowTeamChangeOnTouch = 0x3D;
+        constexpr uintptr_t AllowTeamChangeOnTouch = 0x1D8;
         constexpr uintptr_t Enabled = 0x1D9;
         constexpr uintptr_t ForcefieldDuration = 0x1D0;
         constexpr uintptr_t Neutral = 0x1DA;
@@ -850,7 +820,7 @@ namespace StructOffsets
 
     namespace StatsItem
     {
-        constexpr uintptr_t Value = 0xE758;
+        constexpr uintptr_t Value = 0xB93D;
     }
 
     namespace SunRaysEffect
@@ -881,13 +851,12 @@ namespace StructOffsets
 
     namespace TaskScheduler
     {
-        constexpr uintptr_t Fps = 0xB0;
         constexpr uintptr_t JobEnd = 0xD0;
         constexpr uintptr_t JobName = 0x18;
         constexpr uintptr_t JobStart = 0xC8;
         constexpr uintptr_t JobTypeName = 0xF8;
         constexpr uintptr_t MaxFPS = 0xB0;
-        constexpr uintptr_t Pointer = 0x8F1E408;
+        constexpr uintptr_t Pointer = 0x8DA5D98;
         constexpr uintptr_t ScriptContext = 0x1B8;
     }
 
@@ -924,18 +893,18 @@ namespace StructOffsets
         constexpr uintptr_t LocalizedText = 0xA48;
         constexpr uintptr_t MaxVisibleGraphemes = 0xD7C;
         constexpr uintptr_t Modal = 0x6AD;
-        constexpr uintptr_t RichText = 0xC5E;
+        constexpr uintptr_t RichText = 0xA45;
         constexpr uintptr_t Selected = 0x6AE;
         constexpr uintptr_t Text = 0xA48;
         constexpr uintptr_t TextColor3 = 0xD60;
         constexpr uintptr_t TextDirection = 0xC00;
-        constexpr uintptr_t TextScaled = 0xA31;
+        constexpr uintptr_t TextScaled = 0x6;
         constexpr uintptr_t TextSize = 0xD84;
         constexpr uintptr_t TextStrokeColor3 = 0xD6C;
         constexpr uintptr_t TextStrokeTransparency = 0xD88;
         constexpr uintptr_t TextTransparency = 0xD8C;
         constexpr uintptr_t TextTruncate = 0xD90;
-        constexpr uintptr_t TextWrapped = 0xA31;
+        constexpr uintptr_t TextWrapped = 0xC58;
         constexpr uintptr_t TextXAlignment = 0xD94;
         constexpr uintptr_t TextYAlignment = 0xBA8;
     }
@@ -951,14 +920,14 @@ namespace StructOffsets
         constexpr uintptr_t Text = 0x7C8;
         constexpr uintptr_t TextColor3 = 0xAE0;
         constexpr uintptr_t TextDirection = 0x980;
-        constexpr uintptr_t TextScaled = 0x765;
+        constexpr uintptr_t TextScaled = 0x9D6;
         constexpr uintptr_t TextSize = 0xB04;
         constexpr uintptr_t TextStrokeColor3 = 0xAEC;
         constexpr uintptr_t TextStrokeTransparency = 0xB08;
         constexpr uintptr_t TextTransparency = 0xB0C;
         constexpr uintptr_t TextTruncate = 0xB10;
         constexpr uintptr_t TextWrapped = 0x9D8;
-        constexpr uintptr_t TextXAlignment = 0xB14;
+        constexpr uintptr_t TextXAlignment = 0x9E7;
         constexpr uintptr_t TextYAlignment = 0x928;
     }
 
@@ -1020,13 +989,10 @@ namespace StructOffsets
 
     namespace VisualEngine
     {
-        constexpr uintptr_t DeviceToSwapChain = 0x88;
         constexpr uintptr_t Dimensions = 0xB10;
         constexpr uintptr_t FakeDataModel = 0xAF0;
-        constexpr uintptr_t RenderJobToView = 0x1E0;
         constexpr uintptr_t RenderView = 0xC50;
         constexpr uintptr_t ViewMatrix = 0x1B0;
-        constexpr uintptr_t ViewToDevice = 0x10;
     }
 
     namespace WeldConstraint
@@ -1061,7 +1027,7 @@ namespace StructOffsets
 
     namespace WorldRoot
     {
-        constexpr uintptr_t RaycastBoundDesc = 0x7004700;
+        constexpr uintptr_t RaycastBoundDesc = 0x6EC9CE0;
         constexpr uintptr_t RaycastBoundFn = 0x80;
     }
 

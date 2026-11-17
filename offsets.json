@@ -2,8 +2,8 @@
   "metadata": {
     "dumper": "Valkz Dumper 1.0",
     "discord": "accused",
-    "roblox_version": "version-4ea8e85481e34f46",
-    "total_offsets": 659
+    "roblox_version": "version-2c6fd5e09aaf4cfa",
+    "total_offsets": 629
   },
   "offsets": {
     "Actor": {
@@ -16,7 +16,7 @@
     "AnimationTrack": {
       "Animation": 160,
       "Animator": 248,
-      "IsPlaying": 2576,
+      "IsPlaying": 2624,
       "Looped": 205,
       "Speed": 188,
       "TimePosition": 192
@@ -77,8 +77,6 @@
       "Size": 160
     },
     "ByteCode": {
-      "LocalScriptByteCode": 376,
-      "ModuleScriptByteCode": 288,
       "Pointer": 24,
       "Size": 40
     },
@@ -144,17 +142,16 @@
       "Template": 232
     },
     "ColorCorrectionEffect": {
-      "Brightness": 172,
-      "Contrast": 176,
+      "Brightness": 220,
+      "Contrast": 228,
       "Enabled": 152,
-      "TintColor": 160
+      "TintColor": 208
     },
     "ColorGradingEffect": {
       "Enabled": 152,
       "TonemapperPreset": 160
     },
     "DataModel": {
-      "Children": 112,
       "CreatorId": 400,
       "GameId": 408,
       "GameLoaded": 1464,
@@ -204,13 +201,12 @@
     "ExtraSpace": {
       "IsCoreScript": 360,
       "RequireBypass": 2560,
-      "ScriptContextToLuaState": 544,
       "ScriptContextToResume": 2272,
       "ScriptContextToState": 768,
       "WaitingHybridScriptsJobScriptContext": 448
     },
     "FakeDataModel": {
-      "Pointer": 150530408,
+      "Pointer": 148988776,
       "RealDataModel": 504
     },
     "FastClusterEntity": {
@@ -277,7 +273,7 @@
       "SizeConstraint": 824,
       "Text": 2608,
       "TextColor3": 2784,
-      "Visible": 1837,
+      "Visible": 1840,
       "ZIndex": 828
     },
     "HandleAdornment": {
@@ -297,10 +293,10 @@
       "HealthDisplayDistance": 380,
       "HealthDisplayType": 384,
       "HipHeight": 392,
-      "HumanoidRootPart": 1128,
-      "HumanoidState": 2224,
+      "HumanoidRootPart": 1120,
+      "HumanoidState": 2216,
       "HumanoidStateID": 32,
-      "IsWalking": 2630,
+      "IsWalking": 2622,
       "Jump": 468,
       "JumpHeight": 408,
       "JumpPower": 412,
@@ -311,20 +307,20 @@
       "MoveToPoint": 344,
       "NameDisplayDistance": 424,
       "NameOcclusion": 428,
-      "PlatformStand": 470,
+      "PlatformStand": 469,
       "PlatformStatePointer": 1195812088,
-      "RequiresNeck": 471,
+      "RequiresNeck": 470,
       "RigType": 440,
       "SeatPart": 240,
-      "Sit": 471,
+      "Sit": 470,
       "TargetPoint": 320,
-      "UseJumpPower": 474,
+      "UseJumpPower": 473,
       "WalkSpeed": 456,
-      "WalkSpeedCheck": 932,
-      "WalkTimer": 1008,
+      "WalkSpeedCheck": 924,
+      "WalkTimer": 0,
       "WalkToPoint": 344,
       "Walkspeed": 456,
-      "WalkspeedCheck": 932
+      "WalkspeedCheck": 924
     },
     "Hyperion": {
       "Bitmap": 21442888,
@@ -337,7 +333,7 @@
       "Children": 120,
       "ChildrenEnd": 8,
       "ChildrenStart": 112,
-      "ClassBase": 432,
+      "ClassBase": 440,
       "ClassDescriptor": 24,
       "ClassName": 8,
       "ComponentMap": 56,
@@ -360,7 +356,7 @@
     },
     "Lighting": {
       "Ambient": 184,
-      "Atmosphere": 448,
+      "Atmosphere": 456,
       "Brightness": 256,
       "ClockTime": 176,
       "ColorShift_Bottom": 196,
@@ -372,30 +368,30 @@
       "FogEnd": 276,
       "FogStart": 280,
       "GeographicLatitude": 284,
-      "GlobalShadows": 300,
-      "GradientBottom": 376,
-      "GradientTop": 312,
-      "LightColor": 324,
-      "LightDirection": 336,
-      "MoonPosition": 364,
+      "GlobalShadows": 306,
+      "GradientBottom": 384,
+      "GradientTop": 320,
+      "LightColor": 332,
+      "LightDirection": 344,
+      "MoonPosition": 372,
       "OutdoorAmbient": 232,
-      "ShadowSoftness": 292,
-      "Sky": 432,
-      "Source": 348,
-      "SunPosition": 352
+      "ShadowSoftness": 296,
+      "Sky": 440,
+      "Source": 356,
+      "SunPosition": 360
     },
     "LightingParameters": {
       "GeographicLatitude": 284,
-      "LightColor": 324,
-      "LightDirection": 336,
-      "SkyAmbient": 312,
+      "LightColor": 332,
+      "LightDirection": 344,
+      "SkyAmbient": 320,
       "SkyAmbient2": 288,
-      "Source": 348,
-      "TrueMoonPosition": 364,
-      "TrueSunPosition": 352
+      "Source": 356,
+      "TrueMoonPosition": 372,
+      "TrueSunPosition": 360
     },
     "LocalScript": {
-      "ByteCode": 376,
+      "ByteCode": 0,
       "Bytecode": 400,
       "GUID": 184,
       "Hash": 392
@@ -454,7 +450,7 @@
       "Scale": 300
     },
     "ModuleScript": {
-      "ByteCode": 288,
+      "ByteCode": 0,
       "Bytecode": 312,
       "GUID": 184,
       "Hash": 840,
@@ -494,7 +490,7 @@
       "MaxZoomDistance": 880,
       "MinZoomDistance": 884,
       "ModelInstance": 672,
-      "Mouse": 4592,
+      "Mouse": 4728,
       "NameDisplayDistance": 944,
       "Team": 736,
       "TeamColor": 952,
@@ -515,9 +511,9 @@
       "AssemblyLinearVelocity": 224,
       "CFrame": 52,
       "Flags": 446,
-      "Material": 590,
+      "Material": 598,
       "Orientation": 52,
-      "Owner": 536,
+      "Owner": 544,
       "Position": 212,
       "PrimitiveFlags": 446,
       "Rotation": 176,
@@ -538,15 +534,8 @@
       "Translation": 36
     },
     "Properties": {
-      "CallbackFunctionOffset": 16,
-      "CallbackOffsetInDescriptor": 136,
-      "CallbackOwnerOffset": 0,
-      "CallbackThreadOffset": 40,
       "ClassDescriptor": 24,
       "ClassName": 8,
-      "FunctionRefIdOffset": 52,
-      "LiveThreadRefOffset": 16,
-      "LuaStateGlobalOffset": 96,
       "Properties": 112,
       "PropertyDescriptorBitFlags": 140,
       "TType": 104,
@@ -554,11 +543,8 @@
     },
     "PropertyDescriptor": {
       "CallbackStorage": 128,
-      "GetSet": 176,
-      "ReadCapabilities": 56,
       "ScriptableMask": 16,
-      "TypeDescriptor": 104,
-      "TypeInfo": 112
+      "TypeDescriptor": 104
     },
     "Proto": {
       "code": 48,
@@ -578,9 +564,8 @@
       "RequiresLineOfSight": 287
     },
     "Render": {
-      "RenderJobToView": 480,
-      "RenderViewToDevice": 16,
-      "RobloxDeviceToSwapChain": 136
+      "RenderJobToView": 464,
+      "RenderViewToDevice": 8
     },
     "RenderJob": {
       "FakeDataModel": 56,
@@ -624,11 +609,11 @@
       "script": 88
     },
     "RunService": {
-      "HeartbeatFPS": 200,
-      "HeartbeatTask": 10184
+      "HeartbeatFPS": 190,
+      "HeartbeatTask": 167480
     },
     "Script": {
-      "ByteCode": 376,
+      "ByteCode": 0,
       "GUID": 184,
       "Hash": 392
     },
@@ -637,38 +622,25 @@
       "RequireBypass": 2560,
       "Resume": 2272
     },
-    "Scripts": {
-      "weak_thread_live_thread": 40
-    },
     "Seat": {
       "Occupant": 512
     },
     "SignalConnection": {
       "Enabled": 32,
       "FunctionScriptSlotSelf": 24,
-      "IsOnce": 181,
       "Next": 16,
       "SelfWeakFallback": 72,
-      "Signature": 96,
       "SlotWrapper": 48,
       "SlotWrapperFallbackSelf": 64,
-      "SlotWrapperFunctionId": 48,
-      "SlotWrapperFunctionIdFallback": 52,
       "SlotWrapperSelf": 56,
-      "SlotWrapperThread": 40,
-      "SlotWrapperWeakObjectRef": 160,
-      "SlotWrapperWeakObjectRefFallback": 144,
-      "SlotWrapperWeakObjectRefLegacy": 104,
       "WeakChain": 104,
       "WeakChainNext": 8
     },
     "SignalWeakObject": {
       "FunctionReference": 52,
       "Pointer": 96,
-      "Self": 24,
       "Thread": 40,
-      "WaitContainer": 80,
-      "WeakChain": 104
+      "WaitContainer": 80
     },
     "Sky": {
       "MoonAngularSize": 556,
@@ -685,17 +657,17 @@
       "SunTextureId": 512
     },
     "Sound": {
-      "IsPlaying": 304,
-      "Looped": 301,
-      "PlaybackSpeed": 268,
-      "RollOffMaxDistance": 272,
-      "RollOffMinDistance": 276,
+      "IsPlaying": 280,
+      "Looped": 277,
+      "PlaybackSpeed": 252,
+      "RollOffMaxDistance": 256,
+      "RollOffMinDistance": 260,
       "SoundGroup": 208,
       "SoundId": 176,
-      "Volume": 288
+      "Volume": 272
     },
     "SpawnLocation": {
-      "AllowTeamChangeOnTouch": 61,
+      "AllowTeamChangeOnTouch": 472,
       "Enabled": 473,
       "ForcefieldDuration": 464,
       "Neutral": 474,
@@ -708,7 +680,7 @@
       "TextureId": 272
     },
     "StatsItem": {
-      "Value": 59224
+      "Value": 47421
     },
     "SunRaysEffect": {
       "Enabled": 152,
@@ -731,13 +703,12 @@
       "len": 20
     },
     "TaskScheduler": {
-      "Fps": 176,
       "JobEnd": 208,
       "JobName": 24,
       "JobStart": 200,
       "JobTypeName": 248,
       "MaxFPS": 176,
-      "Pointer": 150070280,
+      "Pointer": 148528536,
       "ScriptContext": 440
     },
     "Team": {
@@ -766,18 +737,18 @@
       "LocalizedText": 2632,
       "MaxVisibleGraphemes": 3452,
       "Modal": 1709,
-      "RichText": 3166,
+      "RichText": 2629,
       "Selected": 1710,
       "Text": 2632,
       "TextColor3": 3424,
       "TextDirection": 3072,
-      "TextScaled": 2609,
+      "TextScaled": 6,
       "TextSize": 3460,
       "TextStrokeColor3": 3436,
       "TextStrokeTransparency": 3464,
       "TextTransparency": 3468,
       "TextTruncate": 3472,
-      "TextWrapped": 2609,
+      "TextWrapped": 3160,
       "TextXAlignment": 3476,
       "TextYAlignment": 2984
     },
@@ -791,14 +762,14 @@
       "Text": 1992,
       "TextColor3": 2784,
       "TextDirection": 2432,
-      "TextScaled": 1893,
+      "TextScaled": 2518,
       "TextSize": 2820,
       "TextStrokeColor3": 2796,
       "TextStrokeTransparency": 2824,
       "TextTransparency": 2828,
       "TextTruncate": 2832,
       "TextWrapped": 2520,
-      "TextXAlignment": 2836,
+      "TextXAlignment": 2535,
       "TextYAlignment": 2344
     },
     "Textures": {
@@ -842,14 +813,11 @@
       "RaiseEventInvocation": 24
     },
     "VisualEngine": {
-      "DeviceToSwapChain": 136,
       "Dimensions": 2832,
       "FakeDataModel": 2800,
-      "Pointer": 144775176,
-      "RenderJobToView": 480,
+      "Pointer": 143223704,
       "RenderView": 3152,
-      "ViewMatrix": 432,
-      "ViewToDevice": 16
+      "ViewMatrix": 432
     },
     "WeldConstraint": {
       "Part0": 160,
@@ -874,7 +842,7 @@
       "worldStepsPerSec": 2152
     },
     "WorldRoot": {
-      "RaycastBoundDesc": 117458688,
+      "RaycastBoundDesc": 116169952,
       "RaycastBoundFn": 128
     },
     "lua_State": {
