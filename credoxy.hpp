@@ -3,7 +3,7 @@
 #include <Windows.h>
 
 // Credoxy 0.747.0.7471481 (4ea8e85481e34f46)
-// Live client: version-4ea8e85481e34f46
+// Live client: version-2c6fd5e09aaf4cfa
 // Original Credoxy names and namespaces, kept verbatim.
 
 #ifndef REBASE
